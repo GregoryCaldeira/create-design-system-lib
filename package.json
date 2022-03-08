@@ -1,0 +1,21 @@
+{
+  "name": "create-design-system",
+  "version": "0.0.1",
+  "description": "Set up design system running one command",
+  "main": "index.js",
+  "repository": "https://github.com/GregoryCaldeira/create-design-system.git",
+  "author": "Gregory Caldeira <geral.gcaldeira@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
