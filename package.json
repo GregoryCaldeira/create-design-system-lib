@@ -2,6 +2,7 @@
   "name": "create-design-system",
   "version": "0.0.1",
   "description": "Set up design system running one command",
+  "bin": "./bin/init.sh",
   "main": "index.js",
   "repository": "https://github.com/GregoryCaldeira/create-design-system.git",
   "author": "Gregory Caldeira <geral.gcaldeira@gmail.com>",
