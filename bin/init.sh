@@ -19,6 +19,8 @@ PROJECT_NAME="$(convert_kebab_case "$1")"
 
 mkdir -p "$PROJECT_NAME"
 
+mv  -v ./templates/* "./$PROJECT_NAME/"
+
 exit 0
 
 
