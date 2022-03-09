@@ -1,10 +1,10 @@
 {
-  "name": "create-design-system",
+  "name": "create-canvas-ds",
   "version": "0.0.1",
-  "description": "Set up design system running one command",
+  "description": "Set up a design system running with one command",
   "bin": "./bin/init.sh",
   "main": "index.js",
-  "repository": "https://github.com/GregoryCaldeira/create-design-system.git",
+  "repository": "https://github.com/GregoryCaldeira/create-canvas-ds.git",
   "author": "Gregory Caldeira <geral.gcaldeira@gmail.com>",
   "license": "MIT",
   "private": false,
