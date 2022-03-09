@@ -17,9 +17,21 @@ function convert_kebab_case() {
 
 PROJECT_NAME="$(convert_kebab_case "$1")"
 
-mkdir -p "$PROJECT_NAME"
+echo "Creating $PROJECT_NAME"
+git clone https://github.com/GregoryCaldeira/create-canvas-ds.git "$PROJECT_NAME"
 
-mv  -v ./templates/* "./$PROJECT_NAME/"
+cd "$PROJECT_NAME"
+
+rm -rf ./README.md
+rm -rf ./package.json
+rm -rf ./LICENSE
+rm -rf ./.gitignore
+rm -rf ./bin
+rm -rf ./yarn.lock
+
+mv  -v ./templates/* "./"
+
+rm -rf ./templates
 
 exit 0
 
