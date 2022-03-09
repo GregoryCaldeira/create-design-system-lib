@@ -1,6 +1,6 @@
 {
   "name": "create-canvas-ds",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set up a design system running with one command",
   "bin": "./bin/init.sh",
   "main": "index.js",
