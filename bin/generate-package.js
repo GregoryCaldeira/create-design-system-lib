@@ -10,5 +10,9 @@ const projectInfo = {
   scripts: {},
 };
 
-let data = JSON.stringify(teste, null, 2);
-fs.writeFileSync('package.json', data);
+const configsJson = fs.readFileSync('template.json');
+const configs = JSON.parse(configsJson);
+
+const package = JSON.stringify({ ...projectInfo, ...configs }, null, 2);
+
+fs.writeFileSync('package.json', package);
