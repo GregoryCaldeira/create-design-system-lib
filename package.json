@@ -8,6 +8,12 @@
   "author": "Gregory Caldeira <geral.gcaldeira@gmail.com>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "design",
+    "system",
+    "create-design-system-lib",
+    "boilerplate"
+  ],
   "scripts": {
     "commit": "cz"
   },
